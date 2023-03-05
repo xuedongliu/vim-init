@@ -46,8 +46,6 @@ Plug 'easymotion/vim-easymotion'
 
 " 文件浏览器，代替 netrw
 Plug 'justinmk/vim-dirvish'
-" 代码检查工具
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " 表格对齐，使用命令 Tabularize
 Plug 'godlygeek/tabular', { 'on': 'Tabularize' }
