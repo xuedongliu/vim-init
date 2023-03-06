@@ -46,8 +46,8 @@ Plug 'easymotion/vim-easymotion'
 
 " 文件浏览器，代替 netrw
 Plug 'justinmk/vim-dirvish'
-" 代码检查工具
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+Plug 'Valloric/YouCompleteMe'
 
 " 表格对齐，使用命令 Tabularize
 Plug 'godlygeek/tabular', { 'on': 'Tabularize' }
@@ -55,6 +55,7 @@ Plug 'godlygeek/tabular', { 'on': 'Tabularize' }
 " Diff 增强，支持 histogram / patience 等更科学的 diff 算法
 Plug 'chrisbra/vim-diff-enhanced'
 
+Plug 'editorconfig/editorconfig-vim'
 
 "----------------------------------------------------------------------
 " Dirvish 设置：自动排序并隐藏文件，同时定位到相关文件
